@@ -1,0 +1,163 @@
+From wolle-lit at theparallax.com  Sat Sep  3 15:50:56 2005
+From: wolle-lit at theparallax.com (Wolfgang Kaufmann)
+Date: Sat, 3 Sep 2005 15:50:56 +0200
+Subject: [Lit-devel] Grundidee, ...
+In-Reply-To: <353997030508290520150067ab@mail.gmail.com>
+References: <3539970305082718523c34f99b@mail.gmail.com> <BF38A4A2.715A%sd@theparallax.com> <20050829100519.GA3482@theparallax.com> <353997030508290520150067ab@mail.gmail.com>
+Message-ID: <20050903135056.GA4221@theparallax.com>
+
+* Thus spoke Gerfried Reis <shootrell at gmail.com>:
+
+Hallo,
+
+> > * Thus spoke Simon Dorner <sd at theparallax.com>:
+> > > Vielleicht finden wir auch eine M?glichkeit, ?ber die verschiedenen
+> > > Plattformen ein Videoconferencing mit mehreren Parteien zustande zu kriegen.
+> > > Naja, ich sch?tze da die Chancen mal ziemlich minimal ein...
+> 
+> Meine webcam ist mittlerweile verifiziert-tot, d.h. wenn
+> videoconferencing mal aktuell wird, m?sst ihr mir das fr?h genug
+> sagen, damit ich f?r Ersatz sorgen kann.
+
+Ich h?tte bis vor kurzem nicht mal bei reinem (Skype-)Sprachaustausch
+mitmachen k?nnen, habe mir aber vorherige Woche von Logitech das
+Internet Chat Headset gekauft und gerade eben eine WebCam um 14,- EUR
+(Labtec WebCam Pro) bestellt -- mir war irgendwie entgangen, dass es die
+Dinger mittlerweile auch schon f?r $billig gibt.
+
+Bei mir sollte es rein Hardware technisch nun also gehen :-)
+
+Tja, ich w?re momentan so richtig im code-hacken-laune-modus. Aber weil
+wir bei lit derzeit noch etwas davon entfernt sind und ich den geplanten
+Mikrocontroller-Bausatz-Kauf erst Mitte n?chster Woche erledigen kann,
+muss mich meine Energie (ab Dienstag schauts zeitlich eh ned mehr so gut
+aus) anders ablassen: konkret hei?t das: vern?nftigen IM hacken.
+
+
+
+Wolfgang
+-- 
+"If you've a highlighter pen, these lines above have got to be marked."
+
+
+From wolle-lit at theparallax.com  Mon Sep  5 15:59:51 2005
+From: wolle-lit at theparallax.com (Wolfgang Kaufmann)
+Date: Mon, 5 Sep 2005 15:59:51 +0200
+Subject: Gizmo, Skype & Co - Audio-/Videokonferencing (was: Re: [Lit-devel] Grundidee, ...)
+In-Reply-To: <353997030508290520150067ab@mail.gmail.com>
+References: <3539970305082718523c34f99b@mail.gmail.com> <BF38A4A2.715A%sd@theparallax.com> <20050829100519.GA3482@theparallax.com> <353997030508290520150067ab@mail.gmail.com>
+Message-ID: <20050905135951.GA3639@theparallax.com>
+
+* Thus spoke Gerfried Reis <shootrell at gmail.com>:
+
+Hallo,
+
+> Skype geht wirklich gut - ich hab da auch die Konferenzfunktion
+> gestestet, zumindest mit 4 Leuten funktioniert das noch sehr passabel,
+> und das reicht uns vorerst eh locker.
+
+Mit Gizmo (http://www.gizmoproject.com/) steht mittlerweile auch eine
+auf offeneren Standards basierende Alternative zur Verf?gung (Clients
+wiederum f?r alle drei Systeme verf?gbar; eigentlich recht ?hnlich zu
+Skype mit ein paar zus?tzlichen Features, wie z.B. die Map, und wohl
+auch der besseren UI)
+
+Sipphone ist ?brigens auch einer der zwei Netze (das andere ist
+Earthlink) die an Google Talk VoIP Service angeschlossen werden.
+
+Ich habe gerade Gizmo zum ersten Mal getestet. Die Sprachqualit?t war
+schlechter als bei meinem ersten Skype-Test vor ein paar Tagen. Vorallem
+die Hintergrundger?usche (ein kaputter Powerbook-L?ufter der scheinbar
+einen unglaublichen L?rm erzeugt) st?rten, die Stimmen waren eher klar
+zu h?ren. Weiters kam mir zun?chst die Verz?gerung etwas bemerkbarer vor
+(> +1s vielleicht).  Ich habe daher dann versucht mit Skype zu
+vergleichen und aus irgendeinem Grund war die Sprachqualit?t mit Skype
+heute viel schlechter (liegt das an der Useranzahl? Heute waren 3.3
+online, letztens um 2 Uhr morgens etwa < 2 Millionen) - ziemlich
+ged?mpft, zwar kaum ein Rauschen durch Hintergrundger?usche aber auch
+der Rest stark ged?mpft. Bei Gizmo war der Klang wesentlich voller und
+nat?rlicher, leider auch der L?rm.  Wie gesagt, jetzt - vor ein paar
+Tagen beim ersten Test mit Skype war die Verbindung eigentlich ziemlich
+gut.
+
+
+
+         Wolfgang
+
+
+PS: Simon, vielleicht k?nnen wir die Sachen ja in den n?chsten Tagen ein
+bisschen Testen.
+
+PPS: Meine WebCam sollte die Woche eintreffen! :-)
+-- 
+"If you've a highlighter pen, these lines above have got to be marked."
+
+
+From wolle-lit at theparallax.com  Tue Sep  6 16:58:17 2005
+From: wolle-lit at theparallax.com (Wolfgang Kaufmann)
+Date: Tue, 6 Sep 2005 16:58:17 +0200
+Subject: Gizmo, Skype & Co - Audio-/Videokonferencing (was: Re: [Lit-devel] Grundidee, ...)
+In-Reply-To: <20050905135951.GA3639@theparallax.com>
+References: <3539970305082718523c34f99b@mail.gmail.com> <BF38A4A2.715A%sd@theparallax.com> <20050829100519.GA3482@theparallax.com> <353997030508290520150067ab@mail.gmail.com> <20050905135951.GA3639@theparallax.com>
+Message-ID: <20050906145817.GB3594@theparallax.com>
+
+* Thus spoke Wolfgang Kaufmann <wolle-lit at theparallax.com>:
+
+Hallo,
+
+> Mit Gizmo (http://www.gizmoproject.com/) steht mittlerweile auch eine
+> auf offeneren Standards basierende Alternative zur Verf?gung
+
+Weil's gerade per Slashdot bei mir ankam:
+
+ - das OpenWengo Projekt zielt darauf ab eine richtige Open Source
+   Alternative zu Skype, Gizmo & Co anzubieten.
+
+Siehe http://dev.openwengo.com/trac/openwengo/trac.cgi/wiki
+
+Das ganze entstammt ?brigens Gerfried's aktuellen Landeskollegen und
+wird von der franz?sischen Firma Wengo (http://www.wengo.fr/)
+gesponsert. Die Webseite kann ich ned lesen, aber die Stichworte 7,- EUR
+und ADSL reichen mir bereits v?llig um die ?sterreichische T-kom mit
+ihren Mafia-Preisen wieder mal zu verdammen...
+
+Bzgl. Videokonferencing: Da gibt es doch weitaus mehr als ich angenommen
+habe.  Machts nat?rlich ned leichter etwas brauchbares zu finden. Ich
+werde heute abend mal versuchen ein paar der im folgenden Vergleichstest
+genannten Programme genauer anzuschauen:
+
+http://www.kolabora.com/news/2004/05/17/best_multiparty_videoconferencing_tools_take.htm
+
+
+
+Wolfgang
+
+PS: Wann wollen wir mit den ersten Besprechungen anfangen? Warten wir
+bis wir - wie auch immer - eine Online-Konferenz machen k?nnen? Auf das
+erste Lit-Developer Meeting Anfang Oktober?
+-- 
+"If you've a highlighter pen, these lines above have got to be marked."
+
+
+From wolle-lit at theparallax.com  Wed Sep  7 22:16:03 2005
+From: wolle-lit at theparallax.com (Wolfgang Kaufmann)
+Date: Wed, 7 Sep 2005 22:16:03 +0200
+Subject: [Lit-devel] lit-devel Mailingliste Status OK
+Message-ID: <20050907201603.GA3714@theparallax.com>
+
+Hallo,
+
+die Liste war heute wohl ab etwa Mittag nicht erreichbar; mittlerweile
+sollte es allerdings keine Probleme mehr damit geben!
+
+
+
+             Wolfgang
+
+
+PS: <lit-devel at theparallax.com> lasse ich als Backbone f?r zuk?nftige
+St?rungen bestehen.
+-- 
+"If you've a highlighter pen, these lines above have got to be marked."
+
+

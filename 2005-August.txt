@@ -1,0 +1,507 @@
+From shootrell at gmail.com  Sun Aug 28 03:52:50 2005
+From: shootrell at gmail.com (Gerfried Reis)
+Date: Sun, 28 Aug 2005 03:52:50 +0200
+Subject: [Lit-devel] Grundidee, ...
+Message-ID: <3539970305082718523c34f99b@mail.gmail.com>
+
+Hallo!
+
+Erstmal: Hallo Simon, willkommen bei lit!
+
+Es ist zwar schon ein bissl sp?t, und bef?rchte, dass ich einiges ned
+wirklich ganz strukturiert r?berbringen werde, aber ich m?cht im
+Folgenden mal die Motivation, die Grundidee und ein paar der features
+recht oberfl?chlich erkl?ren, die mir momentan so im Kopf schweben.
+Nat?rlich ist das erstmal nur meine Sicht des Projekts. Da das ganze
+erst seit ca. 1 Woche am laufen ist, und wolle u. ich noch nicht sehr
+viel Zeit hatten, um uns ?ber die genauen Ziele, und schon gar nicht
+?ber konkrete Features Gedanken zu machen, ist mit Zieldefinitionen,
+die wir gemeinsam erstellen, fr?hestens in ein paar Wochen zu rechnen,
+denke ich.
+
+Motivation: Letzten Herbst habe ich begonnen, recht intensiv
+Franz?sisch zu lernen, und da vor allem Vokabel. Meine alten
+AHS-Franz?sischb?cher haben im Anhang jeweils zu jeder Lektion das
+passende Vokabular, zweispaltig, grunds?tzlich gut lernbar. In ca. 4
+Wochen habe ich die Vokabel von 4 Jahren Franz?sischunterricht
+durchgemacht. Kurzzeitig konnte ich die sogar alle. Nur vergisst man
+diese Dinge ohne Wiederholung bekanntlich einfach ziemlich leicht. Das
+Problem war nun, dass es sehr ineffizient ist, die gleichen Seiten mit
+den gleichen Vokabeln immer wieder durchzulesen. Es gibt Vokabel, die
+man sich aus verschiedenen Gr?nden leichter merkt, und solche, die
+einfach schwieriger sind. Beim Wiederholen mittels besagter B?cher
+musste ich dann bei der 3. Wiederholung oft 50 Vokabel lesen, die ich
+ohnehin gewusst hatte, um auf eines zu sto?en, das mir wieder
+entfallen war. Dabei wurden dann auch wieder Vokabel, die ich
+eigentlich noch nicht kannte ?bersehen.
+Somit war das Wiederholen teilweise verschwendete Zeit, die mir f?r
+das Lernen von neuem wieder fehlte.  Au?erdem fehlte einfach der
+?berblick - welche Lektionen konnte ich schon eher gut, welche weniger
+gut? Bei 4 mal ungef?hr 15 Lektionen, die meistens in A, B und C
+unterteilt waren, war es unm?glich, im Ged?chtnis zu behalten, welche
+Lektionen als n?chstes wiederholt werden sollten.
+Aufgrund dieser Probleme (und anderer, die mir momentan nicht
+einfallen), habe ich dann begonnen, mich nach effizienteren Methoden
+zu erkundigen, und stie? auf das (ohnehin recht bekannte)
+Leitner-System/Flashcard-learning/Karteikarten-lernen, oder wie man es
+sonst auch nennt. Hier nur eine ganz kurze Beschreibung des Systems,
+im Netz finden sich ohnehin gen?gend Quellen:
+Die Idee ist, Lernstoff auf Karten aufzuteilen, auf der Vorderseite
+steht eine Frage, auf der R?ckseite eine Antwort. Man beginnt mit
+einem Sto? von ungelernten Karten. Eine gewisse Zeitspanne lang pr?gt
+man sich Fragen und Antworten f?r eine Anzahl von Karten ein, danach
+werden diese "abgefragt". Es geht dabei nicht darum, die Antwort zu
+einer Frage genau zu wissen. Fragen der Art "beschreibe das System
+XYZ", und eine ausf?hrliche Antwort, die man nicht wortw?rtlich, aber
+dem Sinn nach wiedergeben kann, sind nat?rlich genauso denkbar.
+Trotzdem ist das System sicher f?r gewisse Arten von Lernstoff
+geeigneter als f?r andere. So z.b. f?r Fakten-Lernlastige Stoffgebiete
+wie Geschichte sicher eher, als f?r Mathematik.
+Wei? man eine Antwort, wird die Karte auf einen neuen Stapel gelegt.
+Das Wissen dieser Karte ist nun im Ultra-Kurzzeitged?chtnis. Wenn es
+an der Zeit ist, die Karten des neuen Stapels wieder abzufragen,
+wandern die neuerlich richtig beantworteten Fragen wieder auf einen
+neuen Stapel, usw. (Kurzzeitged?chnis, Langzeitged?chtnis 1,
+Langzeitged?chtnis 2, ...).
+Die Intervalle zwischen den Wiederholungen werden dabei immer l?nger,
+je h?her die Stapelnummerierung ist. (Zwischen Ultrakurzzeitged?chtnis
+und Kurzzeitged?chtnis vielleicht nur ein paar Stunden, zwischen
+Langzeitged?chtnis 7 und Langzeitged?chtnis 8 aber einige Monate).
+Fragen, die nicht beantwortet werden k?nnen, wandern wieder auf den
+vorherigen Stapel zur?ck.
+
+Dieses System verhindert genau die Probleme, die ich beim intensiven
+Vokabellernen hatte. Bereits bekanntes wird nicht sinnlos wiederholt,
+Wissensl?cken werden aufgedeckt, etc.
+
+Nun ist es aber nicht m?glich, real-life-Karteikarten f?r mehr als ein
+paar Vokabel zu verwalten, da man ?ber hunderte von Karteikarten Buch
+f?hren m?sste (auf welchem Stapel sie liegen, wann f?r welchen Stapel
+wieder eine Wiederholung f?llig ist, etc. -> v.a. wenn man
+verschiedene Stoffgebiete mit diesem System lernt, wird der
+Verwaltungsoverhead bald zu gro?) somit bietet sich eine
+Softwareumsetzung an.
+
+Dies ist nur die urspr?ngliche Motivation - lit soll kein
+Vokabeltrainer werden (obwohl es daf?r nat?rlich geeignet sein soll)!
+
+Motivation 2: Ich wei? nicht, wie ihr das macht, aber wenn ich im Web
+surfe, habe ich meistens ein Editorfenster mit meinem Notizzettel
+offen, wo ich alles interessante, neue, wissenswerte eintrage, das mir
+so unterkommt. Das Problem dabei ist: Meistens sehe ich mir die Dinge
+nie wieder an, weil ich einfach nicht dazu komme. Sie geraten in
+Vergessenheit, obwohl ich sie eigentlich notiert hatte. Wenn mich ein
+Tool in geeigneten Intervallen auf meine Notizen hinweisen w?rde,
+k?nnte ich mir interessante Sachen erstens bei Gelegenheit tats?chlich
+mal ansehen (obwohl ich zum Zeitpunkt, als ich sie mir notiert hatte,
+keine Zeit daf?r hatte), und w?rde Wissen, dass ich irgendwo
+aufgeschnappt hatte, im Normalfall aber wieder vergessen w?rde, auch
+irgendwann wirklich verinnerlichen. Das Tool m?sste nat?rlich
+intelligent genug sein, um mich nicht zu nerven, aber mir die
+Gelegenheit geben, "nebenbei" zu lernen.
+
+Es lie?en sich sicher noch mehr Beispiele finden, aber da's
+mittlerweile sp?t wird, m?cht ich mal weitermachen ;-)
+
+-> Mir schwebt eine Art "Lernmanager auf Flashcard-Basis" vor. Die
+Karteikartenidee finde ich einfach einleuchtend gut (habe sie auch f?r
+Vokabel getestet, das ganze ist wirklich weit effizienter als lineares
+Lesen).
+Desweiteren steht sie nicht im Widerspruch zu anderen Lernmethoden,
+sondern l?sst sich wunderbar erg?nzen. Als Beispiel fallen mir
+Mindmaps ein. Mindmaps erheben den Anspruch, lineares Lernen zu
+vermeiden, und dem Ged?chtnis durch verschiedene Mittel auf die
+Spr?nge zu helfen, der nat?rlichen Arbeitsweise des Gehirns zu
+entsprechen, etc.
+Nun spricht ja nichts dagegen, z.b. alle R?ckseiten der Karten
+(=Antworten) als Mindmaps zu gestalten. Die entsprechende Fragen dazu
+w?ren vermutlich allgemein gehalten, die Antworten eben so detailliert
+wie n?tig ("Welche Sortieralgorithmen kennst du, was sind deren
+Unterschiede, was wei?t du ?ber ihre Komplexit?t?", und eine Mindmap
+als Antwort).
+So w?rde der Lernmanager daf?r sorgen, den Lernstoff zu strukturieren
+(z.B.: Sortieralgorithmen werden gr??tenteils schon beherrscht, die
+meisten Karten dazu finden sich bereits in Langzeitged?chtnis 1,
+quicksort ist allerdings noch in Kurzzeitged?chtnis verblieben;
+Suchalgorithmen sind allerdings gr??tenteils noch in
+Ultrakurzzeitged?chntis), wiederholt w?rden nur die Einheiten, f?r die
+das n?tig w?re. Gleichzeitig w?rde das Gehirn beim eigentlichen Lernen
+durch die Darstellung des Stoffes als Mindmaps unterst?tzt.
+Durch die Visualisierung der Kartenstapel (evtl. mit Kennzeichnung der
+in den Stapeln enthaltenen Stoffgebiete) w?rde dem Lernenden ein
+?berblick ?ber den beherrschten Stoff vermittelt, etc.
+Mindmaps sind hier nat?rlich nur ein Beispiel - jede Art der
+Aufbereitung des Lernstoffs w?re denkbar. Ich sehe den Lernmanager
+hier als eine Art Meta-Tool, ein Tool, das das Lernen erleichtert, den
+Lernenden dabei unterst?tzt, zum richtigen Zeitpunkt den richtigen
+Stoff zu wiederholen und so der Tendenz des Gehirns, unbenutztes zu
+vergessen entgegenwirkt, ohne aber dem Lernenden Schranken
+aufzuerlegen. V.a. soll lit kein tool sein, das Auswendiglernen
+f?rdert. Nat?rlich kann es auch daf?r eingesetzt werden, dies h?ngt
+jedoch einzig und allein von der Aufbereitung des Lernstoffs ab. Bei
+Fragen und Antworten der Art: "Welches Land wurde 1066 von Wilhelm
+erobert" - "England" tritt nat?rlich Auswendiglernen ein.
+Lit ist lediglich daf?r gedacht, das Gehirn daran zu hindern, der
+nat?rlichen Vergessneigung nachzugeben, sowie die Lerneffizienz
+dadurch zu erh?hen, sinnloses Wiederholen zu vermeiden.
+
+Nat?rlich w?nscht nicht jeder User die gleiche Art von Visualisierung,
+die verschiedensten Arten der Darstellung des Lernstoffes sind
+denkbar, verschiedene Betriebssysteme werden eingesetzt, etc.
+Deshalb m?chte ich Modularit?t und Flexibilit?t zu einem Hauptziel
+machen. Lit soll kein simples Programm sein, sondern erstmal ein
+Framework mit vielen wiederverwendbaren Modulen. Kein einzelnes
+standalone-Programm, sondern eine Sammlung von Modulen, die sich
+m?glichst beliebig kombinieren lassen. Verschiedenartigstes backends
+(sql-Datenbanken, xml, textfiles, ...) sollen unterst?tzt werden,
+intelligente Lernmanager-Module sollen diese mit verschiedenen
+Frontends (f?r console, X11, Windows, MacOS, native Implementierungen,
+java, webclients, ...) verbinden, dazwischen sollen universell
+verwendbare Interfaces stehen.
+Desweiteren soll f?r die Frontends Usability Top-Priorit?t sein. Ich
+m?chte, dass das tool benutzt wird, und ein tool wie kvocabulary oder
+pauker kann und will man nicht benutzen (obwohl sie ansonsten sicher
+nicht schlecht sind).
+Im Idealfall soll der User nicht selbst dran denken m?ssen, hin u.
+wieder sein "Lernprogramm" zu starten. Intelligente Agenten sollen im
+Hintergrund arbeiten, und den User _unaufdringlich_ darauf hinweisen,
+dass es an der Zeit ist, dies oder jenes zu wiederholen. Dies soll
+nicht passieren, wenn der User offensichtlich damit besch?ftigt ist,
+Quake zu spielen, eine wichtige Arbeit zu erledigen, etc.
+PIM-Usern k?nnten empfohlene Lerntermine z.b. in ihren Terminkalender
+eingetragen werden.
+Frontends sollen zumindest leichtgewichtig wirken. Der user soll "mal
+eben schnell" ein paar Karten lernen k?nnen, und nicht ein
+umst?ndliches, langsames bloat-tool starten m?ssen.
+Eigene Flashcard-Server k?nnten zentral Karteikarten verwalten und anbieten. 
+
+Der Lernmanager soll die erw?hnte "Notizzettelfunktionalit?t" haben.
+
+Parallelprojekte k?nnten daf?r sorgen, Uni-Skripten elektronisch umzusetzen.
+
+In wie weit dies alles realisierbar ist, was davon als
+Kernfunktionalit?t zuerst umgesetzt werden soll, etc. muss nat?rlich
+erst besprochen werden. Dies waren nur mal einige meiner Ideen zum
+Thema.
+
+Zusammenfassend: 
+
+lit 
+ - soll m?glichst angenehm benutzbar sein
+ - soll m?chtig und flexibel sein (verschiedene Algorithmen,
+verschiedene Datenquellen (lokal, verteilt, ...), verschiedene
+Visualisierungen, ...)
+ - soll modular sein
+ - soll intelligent sein
+ - soll unterst?tzen und nicht bevormunden
+ - soll die Vergessneigung des Gehirns bek?mpfen 
+
+Ich wei? nicht, ob das alles besonders klar r?berkommt - bei Fragen
+bitte gleich emailen, ich werde ab 30.8. vermutlich f?r einige Wochen
+kein Netz mehr haben, und auch so wenig Zeit.
+
+Gute Nacht!
+Gerfried
+
+
+From wolle-lit at theparallax.com  Sun Aug 28 13:27:40 2005
+From: wolle-lit at theparallax.com (Wolfgang Kaufmann)
+Date: Sun, 28 Aug 2005 13:27:40 +0200
+Subject: [Lit-devel] Grundidee, ...
+In-Reply-To: <3539970305082718523c34f99b@mail.gmail.com>
+References: <3539970305082718523c34f99b@mail.gmail.com>
+Message-ID: <20050828112739.GA3468@theparallax.com>
+
+* Thus spoke Gerfried Reis <shootrell at gmail.com>:
+
+Hallo,
+
+> Motivation 2: Ich wei? nicht, wie ihr das macht, aber wenn ich im Web
+> surfe, habe ich meistens ein Editorfenster mit meinem Notizzettel
+> offen, wo ich alles interessante, neue, wissenswerte eintrage, das mir
+> so unterkommt.
+
+Derartiges bleibt bei mir meist als Tab offen, bis es entweder
+irgendwann sp?ter gelesen oder direkt geschlossen wird, weil's doch ned
+das Erwartete brachte (mich ned mehr interessiert, Artikel zu lang, zu
+schlecht, keine Zeit, ...).
+
+> Das Problem dabei ist: Meistens sehe ich mir die Dinge
+> nie wieder an, weil ich einfach nicht dazu komme. Sie geraten in
+> Vergessenheit, obwohl ich sie eigentlich notiert hatte. Wenn mich ein
+> Tool in geeigneten Intervallen auf meine Notizen hinweisen w?rde,
+> k?nnte ich mir interessante Sachen erstens bei Gelegenheit tats?chlich
+> mal ansehen (obwohl ich zum Zeitpunkt, als ich sie mir notiert hatte,
+> keine Zeit daf?r hatte), und w?rde Wissen, dass ich irgendwo
+> aufgeschnappt hatte, im Normalfall aber wieder vergessen w?rde, auch
+> irgendwann wirklich verinnerlichen. Das Tool m?sste nat?rlich
+> intelligent genug sein, um mich nicht zu nerven, aber mir die
+> Gelegenheit geben, "nebenbei" zu lernen.
+
+?h, ein Lernmanager der dich daran erinnert, dass der Heise Artikel von
+letzter Woche "gelernt" werden will?  Welche Inhalte notierst du dir da
+beispielsweise?
+
+
+
+                                                            Wolfgang
+
+-- 
+"If you've a highlighter pen, these lines above have got to be marked."
+
+
+From shootrell at gmail.com  Sun Aug 28 13:47:33 2005
+From: shootrell at gmail.com (Gerfried Reis)
+Date: Sun, 28 Aug 2005 13:47:33 +0200
+Subject: [Lit-devel] Grundidee, ...
+In-Reply-To: <20050828112739.GA3468@theparallax.com>
+References: <3539970305082718523c34f99b@mail.gmail.com>
+	 <20050828112739.GA3468@theparallax.com>
+Message-ID: <3539970305082804477167cdfd@mail.gmail.com>
+
+Hallo!
+
+On 8/28/05, Wolfgang Kaufmann <wolle-lit at theparallax.com> wrote:
+
+> Derartiges bleibt bei mir meist als Tab offen, bis es entweder
+> irgendwann sp?ter gelesen oder direkt geschlossen wird, weil's doch ned
+> das Erwartete brachte (mich ned mehr interessiert, Artikel zu lang, zu
+> schlecht, keine Zeit, ...).
+
+Nein, ich meinte nicht links udgl., sondern Inhalte. 
+Wenn ich beispielsweise irgendwo auf einer Website auf ein mir
+unbekanntes C++-Idiom sto?e, dann notier ich mir das schnell, und nehm
+mir vor, mir das sp?ter genauer anzusehen. Tu ich dann aber meistens
+nicht. Dadurch, dass ich das gleich dem Manager ?bergebe, werde ich
+erstens nicht vergessen, es mir bei Gelegenheit anzuschauen, zweitens
+wird es auch immer wieder wiederholt werden, sodass ich das ganze
+wirklich lerne.
+ 
+> ?h, ein Lernmanager der dich daran erinnert, dass der Heise Artikel von
+> letzter Woche "gelernt" werden will?  Welche Inhalte notierst du dir da
+> beispielsweise?
+
+S.o., Heise les ich ohnehin selten ;-)
+Programmiersprachliche Konstrukte, interessante tools, interessante
+Ideen - einfach alles, was ich mir eigentlich merken m?chte, was aus
+Zeitmangel meistens aber doch wieder in Vergessenheit ger?t.
+
+Das soll ja nicht der Hauptzweck sein - ich wollte damit nur
+unterstreichen, dass ich mir eine Integration in die t?gliche Arbeit
+am Computer vorstelle.
+
+Gerfried
+
+
+From wolle-lit at theparallax.com  Sun Aug 28 14:28:13 2005
+From: wolle-lit at theparallax.com (Wolfgang Kaufmann)
+Date: Sun, 28 Aug 2005 14:28:13 +0200
+Subject: [Lit-devel] Grundidee, ...
+In-Reply-To: <3539970305082718523c34f99b@mail.gmail.com>
+References: <3539970305082718523c34f99b@mail.gmail.com>
+Message-ID: <20050828122813.GB3836@theparallax.com>
+
+* Thus spoke Gerfried Reis <shootrell at gmail.com>:
+
+Hallo,
+
+> Desweiteren soll f?r die Frontends Usability Top-Priorit?t sein. Ich
+> m?chte, dass das tool benutzt wird, und ein tool wie kvocabulary oder
+> pauker kann und will man nicht benutzen (obwohl sie ansonsten sicher
+> nicht schlecht sind).
+
+Nur um Links von den oben genannten Tools nachzureichen:
+
+ - http://pauker.sourceforge.net/
+ - http://linux.handorf-langenberg.de/
+
+Weiters finden sich unter http://en.wikipedia.org/wiki/Flashcard noch
+Links zu anderen Flashcard-Implementierungen, wie jMemorize und
+Memorize-It (eine veraltet wirkende Windows-Software); letzteres ist
+eine kommerzielle Software.
+
+Weiters gerade entdeckt:
+
+ - http://memaid.sourceforge.net/
+ - http://gplflashcards.sourceforge.net/
+ - http://jflashcard.sourceforge.net/
+
+Quasi bei allen bisher genannten Links finden sich Screenshots auf den
+Webseiten.
+
+
+Hier ein Artikel von Jorgen Sch?fer schildert, wie er auf "So lernt man
+lernen" von Sebastian Leitner stie? (quasi eine Zusammenfassung):
+
+  - http://www.forcix.cx/books/leitner72.html
+
+
+
+                Wolfgang
+-- 
+"If you've a highlighter pen, these lines above have got to be marked."
+
+
+From sd at theparallax.com  Mon Aug 29 11:40:18 2005
+From: sd at theparallax.com (Simon Dorner)
+Date: Mon, 29 Aug 2005 11:40:18 +0200
+Subject: AW: [Lit-devel] Grundidee, ...
+In-Reply-To: <3539970305082718523c34f99b@mail.gmail.com>
+Message-ID: <BF38A4A2.715A%sd@theparallax.com>
+
+Hallo zusammen!
+
+Ich freue mich, dass ich bei dem Projekt mitmachen darf! Je l?nger ich
+dar?ber nachdenke, desto netter und interessanter finde ich die Idee...
+
+Ich bin leider momentan ganz f?rchterlich im Stress, weil ich am Dienstag
+fr?h nach Barcelona fliege und vorher noch nach M?glichkeit meinen gesamten
+Anteil an einem Monsterprojekt f?r die Gr?nen fertig stellen muss.
+
+Ich komme n?chsten Sonntag wieder und dann kann ich langsam anfangen, ein
+paar Dinge in Skizzen umzusetzen. Vorerst habe ich schon eine gewisse
+Vorstellung davon, wie das so funktionieren k?nnte. Ich denke ich werde mir
+in Spanien auch einige Gedanken zum Projekt machen.
+
+Ich bin dann am ?bern?chsten Wochenende vom 9. September in Graz zum
+Elevator-Festival. Wolfgang: W?re super, wenn wir uns da zusammensetzen
+k?nnten, ich hab vor, bis dahin schon ein paar Probescreens mit Ideen zu
+haben. Du k?nntest ja nachher dann auch mal nach Wien kommen.
+
+Vielleicht finden wir auch eine M?glichkeit, ?ber die verschiedenen
+Plattformen ein Videoconferencing mit mehreren Parteien zustande zu kriegen.
+Naja, ich sch?tze da die Chancen mal ziemlich minimal ein...
+
+Ich kann f?r das Projekt auf jeden Fall ein paar interaktive Prototypen
+erstellen. Das hat sich ziemlich bew?hrt. Diese Prototypen sind graphisch
+schon ziemlich ausgefeilt und wirken ziemlich ?berzeugend, haben aber
+nat?rlich keine besondere Funktionalit?t. Eigentlich sind's per HTML
+verlinkte Bilder. Praktisch daran ist, dass man alles ziemlich realit?tsnah
+ausprobieren kann und auf Engp?sse schnell draufkommt, ohne eine Zeile Code
+zu schreiben.
+
+Ich kann leider grad echt nicht mehr schreiben, muss heute noch mein iBook
+in Reparatur bringen, damit die das ?ber den Urlaub richten...
+
+Nach dem Urlaub antworte ich ausf?hrlich auf alle Mails, versprochen!
+
+Liebe Gr??e, Simon.
+
+
+
+
+From wolle-lit at theparallax.com  Mon Aug 29 12:05:19 2005
+From: wolle-lit at theparallax.com (Wolfgang Kaufmann)
+Date: Mon, 29 Aug 2005 12:05:19 +0200
+Subject: [Lit-devel] Grundidee, ...
+In-Reply-To: <BF38A4A2.715A%sd@theparallax.com>
+References: <3539970305082718523c34f99b@mail.gmail.com> <BF38A4A2.715A%sd@theparallax.com>
+Message-ID: <20050829100519.GA3482@theparallax.com>
+
+* Thus spoke Simon Dorner <sd at theparallax.com>:
+
+Hallo,
+
+> Ich freue mich, dass ich bei dem Projekt mitmachen darf! Je l?nger ich
+> dar?ber nachdenke, desto netter und interessanter finde ich die Idee...
+
+:-)
+
+> Ich bin leider momentan ganz f?rchterlich im Stress, weil ich am Dienstag
+> fr?h nach Barcelona fliege und vorher noch nach M?glichkeit meinen gesamten
+> Anteil an einem Monsterprojekt f?r die Gr?nen fertig stellen muss.
+
+Ja, den Stress m?chte ich auch mal haben. *Barcelona* :-)
+
+> Ich bin dann am ?bern?chsten Wochenende vom 9. September in Graz zum
+> Elevator-Festival. Wolfgang: W?re super, wenn wir uns da zusammensetzen
+> k?nnten, ich hab vor, bis dahin schon ein paar Probescreens mit Ideen zu
+> haben. Du k?nntest ja nachher dann auch mal nach Wien kommen.
+
+Geht klar, ob sich Wien ausgeht wei? ich allerdings erst ab 1. September.
+
+> Vielleicht finden wir auch eine M?glichkeit, ?ber die verschiedenen
+> Plattformen ein Videoconferencing mit mehreren Parteien zustande zu kriegen.
+> Naja, ich sch?tze da die Chancen mal ziemlich minimal ein...
+
+Aber geh, notfalls hacken wir uns das schnell zsammen. ;-)  Nein, ich
+denke schon, dass wir das hinkriegen k?nnten - notfalls ?ber Windows
+Meeting.  Video w?re ohnehin nur f?r die Sitzungen wichtig, wo du uns
+einen Prototypen (oder bestimmte Ideen) quasi vorf?hren m?chtest
+(Bildschirmaufnahmen k?nnen die Tools ja sicher unabh?ngig von einer
+WebCam) - d.h. f?r andere Besprechungen k?nnten wir immer noch auf ein
+reines Sprachkonferenztool (wie z.B. Skype - das gibts f?r alle drei
+Plattformen und zumindestens unter Windows/OS X geht der Sound, laut
+Herrn Michael Amling) ausweichen.
+
+> Nach dem Urlaub antworte ich ausf?hrlich auf alle Mails, versprochen!
+
+W?nsche erholsame Urlaubstage!
+
+
+
+                                                             Wolfgang
+-- 
+"If you've a highlighter pen, these lines above have got to be marked."
+
+
+From shootrell at gmail.com  Mon Aug 29 14:20:45 2005
+From: shootrell at gmail.com (Gerfried Reis)
+Date: Mon, 29 Aug 2005 14:20:45 +0200
+Subject: [Lit-devel] Grundidee, ...
+In-Reply-To: <20050829100519.GA3482@theparallax.com>
+References: <3539970305082718523c34f99b@mail.gmail.com>
+	 <BF38A4A2.715A%sd@theparallax.com>
+	 <20050829100519.GA3482@theparallax.com>
+Message-ID: <353997030508290520150067ab@mail.gmail.com>
+
+Hallo!
+
+On 8/29/05, Wolfgang Kaufmann <wolle-lit at theparallax.com> wrote:
+> * Thus spoke Simon Dorner <sd at theparallax.com>:
+
+> > Ich bin leider momentan ganz f?rchterlich im Stress, weil ich am Dienstag
+> > fr?h nach Barcelona fliege und vorher noch nach M?glichkeit meinen gesamten
+> > Anteil an einem Monsterprojekt f?r die Gr?nen fertig stellen muss.
+> 
+> Ja, den Stress m?chte ich auch mal haben. *Barcelona* :-)
+
+momentan darf ich mich wohl ned beschweren... ;-)
+ 
+> > Vielleicht finden wir auch eine M?glichkeit, ?ber die verschiedenen
+> > Plattformen ein Videoconferencing mit mehreren Parteien zustande zu kriegen.
+> > Naja, ich sch?tze da die Chancen mal ziemlich minimal ein...
+> 
+> Aber geh, notfalls hacken wir uns das schnell zsammen. ;-)  Nein, ich
+> denke schon, dass wir das hinkriegen k?nnten - notfalls ?ber Windows
+> Meeting.  Video w?re ohnehin nur f?r die Sitzungen wichtig, wo du uns
+> einen Prototypen (oder bestimmte Ideen) quasi vorf?hren m?chtest
+> (Bildschirmaufnahmen k?nnen die Tools ja sicher unabh?ngig von einer
+> WebCam) - d.h. f?r andere Besprechungen k?nnten wir immer noch auf ein
+
+Meine webcam ist mittlerweile verifiziert-tot, d.h. wenn
+videoconferencing mal aktuell wird, m?sst ihr mir das fr?h genug
+sagen, damit ich f?r Ersatz sorgen kann.
+
+> reines Sprachkonferenztool (wie z.B. Skype - das gibts f?r alle drei
+> Plattformen und zumindestens unter Windows/OS X geht der Sound, laut
+> Herrn Michael Amling) ausweichen.
+
+Skype geht wirklich gut - ich hab da auch die Konferenzfunktion
+gestestet, zumindest mit 4 Leuten funktioniert das noch sehr passabel,
+und das reicht uns vorerst eh locker.
+ 
+> > Nach dem Urlaub antworte ich ausf?hrlich auf alle Mails, versprochen!
+> 
+> W?nsche erholsame Urlaubstage!
+
+Dem schlie?e ich mich an, und melde mich au?erdem f?r einige Zeit ab.
+Wie lange genau kann ich nicht absch?tzen - falls das mit der WG in
+Lille doch noch klappt, kann ich wohl (je nach Schnelligkeit der
+France Telecom) in einer Woche wieder online sein. Wie's im
+Studentenheim aussieht, wei? ich absolut nicht.
+
+sch?ne Woche!
+Gerfried
+
+

@@ -1,0 +1,126 @@
+From sd at theparallax.com  Fri Nov  3 17:21:07 2006
+From: sd at theparallax.com (Simon Dorner)
+Date: Fri, 3 Nov 2006 17:21:07 +0100
+Subject: [Lit-devel]  Hallo mal wieder
+Message-ID: <E8CDFB16-7557-4DE9-8749-41A1379DA30E@theparallax.com>
+
+Hallo zusammen!
+
+Ich wollte mich nur mal wieder melden... Ich besch?ftige mich gerade  
+wieder ein bisschen intensiver mit lit.
+
+Hab mal angefangen, ein bisschen was bei BerliOS ins Wiki zu schreiben:
+
+http://openfacts.berlios.de/index-en.phtml?title=Learn+It%21
+
+Ist eigentlich ?berhaupt noch gar nichts, au?er vielleicht die  
+Linkliste; da sind ein paar ganz interessante Seiten dabei, die ihr  
+euch mal ansehen solltet.
+
+Was mich ziemlich st?rt ist, dass diese Eintr?ge gleich in ein gro?es  
+Wiki "?ber freie Software" eingehen. Irgendwie behindert mich der  
+Gedanke, dass das eine ganze Menge Leute v?llig aus dem Kontext  
+gerissen zu sehen bekommen ziemlich dabei, das Wiki einfach als  
+schnelles Organisationstool f?r meine Gedanken zu verwenden. Ich will  
+eigentlich gar nicht, dass das so schnell wer liest; au?er euch  
+nat?rlich.
+
+Vielleicht sollten wir uns ein kleines privates Wiki einrichten, in  
+dem wir mal vorerst nach belieben w?ten k?nnen. Dann k?nnen wir uns  
+immer noch entscheiden, ob wir die gesammelten Infos mal ?ffentlich  
+machen. Das mit dem Wiki k?nnte ich gern ?bernehmen.
+
+Ich komme vielleicht demn?chst mal wieder nach Mureck, wer hat kurz  
+Zeit und Lust auf eine Pizza? Wie sieht's aus mit ein, zwei Tagen Wien-
+Besuch?
+
+Liebe Gr??e, Simon.
+
+PS: Ach ja: There is one more thing: http://litproject.org :-)
+Das ist bei einem wirklich hervorragenden Hoster online. Siehe http:// 
+textdrive.com/features f?r die M?glichkeiten, die wir dort  
+theoretisch haben. (z.B. SVN und ihr k?nnt gerne IMAP-Email Accounts  
+haben, die unterst?tzen daf?r auch SSL-Verschl?sselung)
+
+From wk at theparallax.com  Sun Nov  5 15:08:03 2006
+From: wk at theparallax.com (Wolfgang Kaufmann)
+Date: Sun, 5 Nov 2006 15:08:03 +0100
+Subject: [Lit-devel] Hallo mal wieder
+In-Reply-To: <E8CDFB16-7557-4DE9-8749-41A1379DA30E@theparallax.com>
+References: <E8CDFB16-7557-4DE9-8749-41A1379DA30E@theparallax.com>
+Message-ID: <20061105140803.GB6588@theparallax.com>
+
+* Thus spoke Simon Dorner <sd at theparallax.com>:
+
+Hallo,
+
+> Vielleicht sollten wir uns ein kleines privates Wiki einrichten, in  
+> dem wir mal vorerst nach belieben w?ten k?nnen. Dann k?nnen wir uns  
+> immer noch entscheiden, ob wir die gesammelten Infos mal ?ffentlich  
+> machen. Das mit dem Wiki k?nnte ich gern ?bernehmen.
+
+Ich hatte vorheriges Jahr einige Wikis (www.opensourcecms.com) aus eben
+diesen Grund ausprobiert. Gesucht war ein halbwegs leistungsf?higes,
+aber dennoch klein und ?berschaubares Wiki mit wenig Wartungs- und
+Einarbeitungsaufwand.
+
+Ich kann mich nicht mehr an die Ergebnisse dieser Suche erinnern, aber
+laut http://www.theparallax.org/lit ist die letzte verbliebene
+Installation eine MediaWiki Instanz gewesen, PmWiki war auch ganz nett.
+Das hatte allerdings auch damit zu tun, dass das kaputte PHP Setup von
+Inode die Installation einiger Wikis von vornhinein unm?glich machte.
+
+Aber du hast inzwischen vermutlich ohnehin mehr Erfahrungen mit Wikis,
+also nimm eines das dir gef?llt - bzgl. der Nicht-?ffentlichkeit sehe
+ich zun?chst in dieser Phase keine Probleme - im Gegenteil: Gerade
+deswegen hatte ich damals ja ?berhaupt erst nach einem geeigneten
+Kandidaten gesucht...
+
+
+
+                                                                Wolle
+-- 
+"If you've a highlighter pen, these lines above have got to be marked."
+
+
+From sd at theparallax.com  Sun Nov  5 17:30:16 2006
+From: sd at theparallax.com (sd at theparallax.com)
+Date: Sun, 5 Nov 2006 17:30:16 +0100 (CET)
+Subject: [Lit-devel] Hallo mal wieder
+In-Reply-To: <20061105140803.GB6588@theparallax.com>
+References: <E8CDFB16-7557-4DE9-8749-41A1379DA30E@theparallax.com>
+	<20061105140803.GB6588@theparallax.com>
+Message-ID: <62.178.175.192.1162744216.wm@webmail.inode.at>
+
+Hallo!
+
+Also ich glaube es ist momentan ziemlich wichtig, dass die ?ffentlichkeit
+nicht unbedingt mitlesen kann.
+
+Zitat von lit.berlios.de: "Mon Nov 21 2005: This project is alive! [...]
+don't expect too many updates before February 2006."
+
+Alleine schon deswegen. Erinnert mich irgendwie an die aktuelle
+theparallax.org-Startseite. Das "Frohe Weihnachten" ist glaub ich von vor
+zwei Jahren. Aber wenigstens manchmal im Jahr wirkt's nicht ganz
+peinlich... :-)
+
+Ich hab die Linkliste um ein paar Eintr?ge erweitert. Unter anderem um
+halbwegs fertige Algorithmen, die die optimale Wiederholfrequenz von
+Karten feststellen. Keine Ahnung, ob wir die jedoch verwenden d?rfen...
+
+Was das Wiki anbelangt, habe ich an Trac gedacht. Das ist eigentlich eine
+ziemlich coole Kombination aus SVN-Browser, Bugtracker und Wiki, aber
+trotzdem ziemlich fokussiert und schlank; ohne irgendwie 10.000 andere
+Dinge auch machen zu wollen. Ist super damit zu arbeiten, einzig die
+Installation ist angeblich schwierig; damit kann ich mich aber
+rumschlagen.
+
+Ich hab mich wieder ein bisschen mit den Screens besch?ftigt. Ich glaube
+ich kann euch das n?chste Mal wieder ein bisschen was zeigen...
+
+Lg, Simon.
+
+
+
+
